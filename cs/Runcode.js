@@ -21,6 +21,14 @@ function addToZero(arr) {
 
 /////////////////Question 2///////////
 
+// Write a function that takes in a single word, as a string. It should return True if that word contains only unique characters. Return False otherwise.
+// for example:
+// hasUniqueChars("Monday");
+// // -> True
+
+// hasUniqueChars("Moonday");
+// // -> False
+
 function hasUniqueChars(string) {
   let uniqueChars = new Set([]);
   for (let i = 0; i < string.length; i++){
@@ -29,6 +37,16 @@ function hasUniqueChars(string) {
   return uniqueChars.size == string.length;
 //////////////Question 3////////
 
+  // Write a function to check a sentence to see if it is a pangram or not.
+
+// For example:
+
+// isPangram("The quick brown fox jumps over the lazy dog!");
+// // -> True
+
+// isPangram("I like cats, but not mice");
+// // -> False
+  
 function isPangram(string) {
   const alphabet = ['a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,']
 
@@ -39,9 +57,18 @@ function isPangram(string) {
   return true;
 }
 
+  console.log(isPangram('The quick brown fox jumps over the lazy dog.'))
 
 //////////////////////Question4////////
 
+  
+// Write a function, find_longest_word, that takes a list of words and returns the length of the longest one.
+
+// For example:
+
+// findLongestWord(["hi", "hello"]);
+// // -> 5
+  
 
 function findLongestWord(arr) {
   let longestword = ""; 
@@ -53,7 +80,7 @@ function findLongestWord(arr) {
   return longestword.length;
 
 }
-}}
+}
 
 findLongestWord([ "hi", "hello"]);
 
