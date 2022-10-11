@@ -46,10 +46,72 @@ const extraLargeArray = getSizedArray(100000);
 // array? 
 
 // Try it with first function
-perf.start();                     // Starts timer
-doublerAppend(extraLargeArray);
-let resultsAppend = perf.stop();  // Stops timer and save time results
+//perf.start();                     // Starts timer
+//doublerAppend(extraLargeArray);
+//let resultsAppend = perf.stop();  // Stops timer and save time results
+// console.log('Results for the extraLargeArray');
+// console.log("insert", resultsInsert.preciseWords);
+// console.log("append", resultsAppend.preciseWords);
 
+//REPEAT PROCESS WITH THE OTHER ARRAYS - tinyArray
+
+// How long does it take to double every number in a given 
+// array?
+// Try it with first function
+// perf.start();                     // Starts timer
+// doublerAppend(tinyArray);
+// let resultsAppend = perf.stop();  // Stops timer and save time results
+
+
+// // Try it with second function
+// perf.start();
+// doublerInsert(tinyArray);
+// let resultsInsert = perf.stop();
+
+// console.log('Results for the tinyArray');
+// console.log("insert", resultsInsert.preciseWords);
+// console.log("append", resultsAppend.preciseWords);
+
+//REPEAT PROCESS WITH THE OTHER ARRAYS - smallArray
+
+// How long does it take to double every number in a given 
+// array?
+// Try it with first function
+// perf.start();                     // Starts timer
+// doublerAppend(smallArray);
+// let resultsAppend = perf.stop();  // Stops timer and save time results
+
+
+// // Try it with second function
+// perf.start();
+// doublerInsert(smallArray);
+// let resultsInsert = perf.stop();
+
+// console.log('Results for the smallArray');
+// console.log("insert", resultsInsert.preciseWords);
+// console.log("append", resultsAppend.preciseWords);
+
+//REPEAT PROCESS WITH THE OTHER ARRAYS - mediumArray
+
+// How long does it take to double every number in a given 
+// array?
+// Try it with first function
+// perf.start();                     // Starts timer
+// doublerAppend(mediumArray);
+// let resultsAppend = perf.stop();  // Stops timer and save time results
+
+
+// // Try it with second function
+// perf.start();
+// doublerInsert(mediumArray);
+// let resultsInsert = perf.stop();
+
+// console.log('Results for the mediumArray');
+// console.log("insert", resultsInsert.preciseWords);
+// console.log("append", resultsAppend.preciseWords);
+ 
+
+//REPEAR THE PROCESS WITH THE OTHER ARRAYS - largeArray
 
 // Try it with second function
 perf.start();
